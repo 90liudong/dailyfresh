@@ -85,9 +85,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dailyfresh1',
-        'USER': 'root',
-        'PASSWORD': 'lololop',
-        'HOST': '192.168.116.133',
+        'USER': 'xxxx',
+        'PASSWORD': 'xxxx',
+        'HOST': 'xxxxxx',
         'PORT':3306,
     }
 }
@@ -130,11 +130,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 25
 # 发送邮件的邮箱
-EMAIL_HOST_USER = '15914905652@163.com'
+EMAIL_HOST_USER = 'xxxxx@163.com'
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = '159149ld'
+EMAIL_HOST_PASSWORD = 'xxxx'
 # 收件人看到的发件人
-EMAIL_FROM = '天天生鲜<15914905652@163.com>'
+EMAIL_FROM = '天天生鲜<xxxxxx@163.com>'
 
 # Django的缓存配置
 CACHES = {
